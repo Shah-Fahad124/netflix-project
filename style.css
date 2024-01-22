@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+header {
+
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/16006346-87f9-4226-bc25-a1fb346a2b0c/2852ef5f-3e49-4ee3-b208-683f57f5fc14/PK-en-20240115-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    background-position: center;
+    height: 100vh;
+    color: white;
+    position: relative;
+
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.btn {
+    padding: 5px 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 1.01rem;
+    border-radius: 5px;
+}
+
+.logo h1 {
+    color: red;
+    font-size: 2.5em;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 1rem;
+    position: relative;
+    z-index: 2;
+    align-items: center;
+
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    gap: 1.5rem;
+    position: relative;
+    z-index: 2;
+
+
+}
+
+.main :nth-child(2) {
+    font-size: 1.8em;
+}
+
+.main :nth-child(3) {
+    font-size: 1.4em;
+}
+
+.email p {
+    font-size: 1.5em;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+}
+
+.email input {
+    width: 30vw;
+    padding: 20px;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(86, 75, 75, 0.268);
+    color: white;
+    font-weight: bold;
+}
+
+.email input::placeholder {
+    color: white;
+}
+
+.email button {
+    padding: 1.5em 2em;
+    margin: 1rem;
+    width: 15vw;
+    font-weight: bold;
+}
+
+/* header end  */
+
+
+/* section start */
+
+
+.first {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+
+.tv-section {
+    width: 70%;
+    margin: auto;
+}
+
+.tv img {
+    margin-left: 10rem;
+}
+
+.first-content p {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+section {
+    background-color: black;
+    color: white;
+    padding: 2rem 0px;
+    margin: .7rem 0px;
+}
+
+.third {
+    width: 60%;
+    margin: auto;
+}
+
+.third-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 5rem 0px;
+
+}
+
+
+/* faq start  */
+
+.faq {
+    text-align: center;
+}
+
+.faq h1 {
+    margin-bottom: 1.5rem;
+}
+
+.faq-items {
+    background-color: rgb(34, 32, 32);
+    width: 70%;
+    margin: 1rem auto;
+    padding: 2rem;
+    text-align: start;
+    font-size: 1.5rem;
+    font-weight: 500;
+    /* transition: background-color .5s ease-in-out; */
+}
+
+.faq-items:hover {
+    background-color: rgb(74, 67, 67);
+}
+
+.faq-email p {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+}
+
+.faq-email .email {
+    justify-content: center;
+}
+
+.footer a {
+    color: white;
+    text-align: center;
+    margin-left: 10%;
+
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+ul li {
+    list-style: none;
+    padding: 1rem;
+}
