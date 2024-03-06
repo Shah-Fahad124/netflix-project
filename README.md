@@ -1,1 +1,1 @@
- https://shah-fahad124.github.io/netflix-project/
+https://shah-fahad124.github.io/netflix-project-with-css/
